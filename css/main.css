@@ -1635,7 +1635,7 @@ header {
  * ------------------------------------------------------------------- 
  */
 #intro {
-	background: #151515 url(../images/backgrounddeveloper.jpg) no-repeat center center;
+	background: #151515 url(../images/helmet_cranes.png) no-repeat center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -2220,7 +2220,7 @@ header {
 }
 
 #portfolio .folio-item {
-	padding: 0;
+	padding: 0.02rem;
 	position: relative;
 	overflow: hidden;
 }
@@ -2270,6 +2270,13 @@ header {
 #portfolio .folio-title {
 	color: #FFFFFF;
 	font-size: 3.3rem;
+	padding: 0 3rem;
+	margin-bottom: 0;
+}
+
+#portfolio .folio-subtitle {
+	color: #FFFFFF;
+	font-size: 1.3rem;
 	padding: 0 3rem;
 	margin-bottom: 0;
 }
